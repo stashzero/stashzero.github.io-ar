@@ -27,7 +27,7 @@ description: >-                        # used by seo meta and the atom feed
   A developer who has used or is studying php, python, golang, node, c#, vba, mysql, aws at work.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://stashzero.github.io'
 
 github:
   username: stashzero             # change to your github username
