@@ -8,7 +8,7 @@ tags: [electron, python, node]     # TAG names should always be lowercase
 > `macOS` `monterey`를 완전히 새로 설치했고, `python` 이 설치되어 있지 않아 발생한 문제이다.
 {: .prompt-info }
 
-# **발생**
+## **발생**
 ---
 
 `electron` 앱을 빌드하려고 할 때, 아래와 같은 에러가 발생했다.
@@ -18,7 +18,7 @@ Exit code: ENOENT. spawn python
 
 
 
-# **원인**
+## **원인**
 ---
 > python 이 설치되어 있지 않거나 python 바이너리 파일이 없다면 여러 라이브러리에서 비슷한 문제가 발생할 수 있다.
 {: .prompt-tip }
@@ -44,7 +44,7 @@ await builder_util_1.exec(process.env.PYTHON_PATH || "/usr/bin/python", [path.jo
 {: file='dmg.py'}
 
 
-# **python 설치**
+## **python 설치**
 ---
 
 `macOS monterey` 에 기본적으로 `python3` 가 설치되어 있었지만 python 바이너리 파일은 없고 `python3` 바이너리 파일만 있었다.
@@ -66,7 +66,7 @@ $pyenv install 2.7.18
 
   - `pyenv` 로 python 2 버전을 설치한 이유는 혹시 나중에 발생할지 모를 python 3 과 충돌 문제에 대해서 신경쓰기 싫어서다.  pyenv 설치 python 2 버전을 설치하지 않아도 되며, 이 부분은 직접 찾아보시길 바란다.
 
-# **해결**
+## **해결**
 ---
 
 
@@ -88,7 +88,7 @@ await builder_util_1.exec(process.env.PYTHON_PATH || "/Users/stashzero/.pyenv/sh
 ```
 {: file='dmg.py'}
 
-# **결과**
+## **결과**
 ---
 
 다행히, 잘 빌드 된다.

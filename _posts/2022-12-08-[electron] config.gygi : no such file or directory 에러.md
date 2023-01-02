@@ -8,7 +8,7 @@ tags: [electron, node, windows]     # TAG names should always be lowercase
 > **Windows 10 OS**기반 **node** 라이브러리 빌드시 발생했다. 
 {: .prompt-info }
 
-# **발생**
+## **발생**
 ---
 
 `electron` 앱을 빌드하려고 할 때, 아래와 같은 에러가 발생했다.
@@ -18,14 +18,14 @@ ENOENT: no such file or directory, open 'C:\Users\stashzero\.electron-gyp\21.2.0
 
 
 
-# **원인**
+## **원인**
 ---
 
 모른다.
 
 아마, `node` 및 `node_modules`를 버전별로 설치 삭제를 반복하던 중에 관련 데이터 파일이 꼬인 것 같다.
 
-# **해결**
+## **해결**
 ---
 
 
@@ -41,7 +41,7 @@ ENOENT: no such file or directory, open 'C:\Users\stashzero\.electron-gyp\21.2.0
 
 
 
-# **결과**
+## **결과**
 ---
 
 최종 빌드 성공

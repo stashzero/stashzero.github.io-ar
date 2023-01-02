@@ -8,7 +8,7 @@ tags: [github, jekyll, ruby]     # TAG names should always be lowercase
 > **jekyll**기반 **github** 블로그 구성 요약
 {: .prompt-info }
 
-# **구성 하는 방법**
+## **구성 하는 방법**
 ---
 
 * `jekyll theme` 를 찾는다
@@ -16,7 +16,7 @@ tags: [github, jekyll, ruby]     # TAG names should always be lowercase
     * `fork` or `zip download` 등 해당 theme 의 가이드가 있다면 참고한다.
 * 나의 `github`에 `repository` 를 생성하는데 이름은 `[userid].github.io` 로 한다.
 
-# **준비사항**
+## **준비사항**
 ---
 
 * `markdown` 작성법을 익히면 편하다.

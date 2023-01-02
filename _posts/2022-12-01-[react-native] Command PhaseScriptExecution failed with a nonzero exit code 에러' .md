@@ -8,7 +8,7 @@ tags: [iOS, react-native, xcode]     # TAG names should always be lowercase
 > `react-native` 기반 iOS 앱을 빌드하려고 할 때 발생한 에러이다.
 {: .prompt-info }
 
-# **발생**
+## **발생**
 ---
 `xcode` 에서 `react-native` 앱을 빌드하려고 할 때 아래와 같은 에러가 발생했다.
 
@@ -24,7 +24,7 @@ Command PhaseScriptExecution failed with a nonzero exit code
 
 그렇게, 헤딩이 시작된다.
 
-# **원인**
+## **원인**
 ---
 원인은 아마도 대부분 비슷할텐데 결국, 쉘 스크립트를 실행하지 못해서 발생하는 이슈였다.
 
@@ -93,7 +93,7 @@ error: Could not find node. Make sure it is in bash PATH or set the NODE_BINARY 
 > 마음이 급해서 기억이 뚜렷하지 않다. xcode내에 log 파일 경로가 있었는지, FBReactNativeSpec 관련 라이브러리를 찾아보다가 log파일을 발견했는지 확실하지 않다. 두 가지 경우가 모쪼록 도움이 되기를 바란다.
 {: .prompt-warning }
 
-# **해결**
+## **해결**
 ---
 
 `xcode` 가 인식하는 `node` 의 경로이다. 
@@ -112,6 +112,6 @@ $ln -s /usr/local/opt/node@18/bin/node /usr/local/bin/node
 ```
 
 
-# **결과**
+## **결과**
 ---
 다행히 잘 빌드 된다.
